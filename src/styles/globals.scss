@@ -4,4 +4,35 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --white: #fff;
+
+  --gray-50: #F8F8F8;
+  --gray-100: #D7D7D7;
+  --gray-200: #BBBBBB;
+
+  --purple-900: #282C34; 
+
+  --pink-500: #FF57B2;
+}
+
+body {
+  font-family: "Inter";
+  background-color: var(--purple-900);
+  color: var(--gray-100);
+}
+
+button {
+  cursor: pointer;
+  font-family: "Inter";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+}

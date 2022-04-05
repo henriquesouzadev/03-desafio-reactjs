@@ -1,1 +1,25 @@
-// TODO
+.post .banner img {
+   display: block;
+   width: 100%;
+}
+
+.post .content {
+   display: block;
+   max-width: 720px;
+   margin: 3rem 0 0;
+
+   .title {
+      font-size: 2.5rem;
+      color: var(--gray-50);
+   }
+
+   .article {
+      margin-top: 5rem;
+      margin-bottom: 4rem;
+
+      h2 {
+         font-size: 2rem;
+         color: var(--gray-50);
+      }
+   }
+}

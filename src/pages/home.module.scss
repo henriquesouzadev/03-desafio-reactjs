@@ -1,1 +1,35 @@
-// TODO
+.posts {
+   display: block;
+   max-width: 720px;
+   margin: 3rem 0 0;
+
+   a {
+      display: block;
+
+      & + a { margin-top: 3rem; }
+
+      strong {
+         display: block;
+         font-size: 2rem;
+         color: var(--gray-50);
+      }
+   
+      p {
+         font-size: 1rem;
+         color: #ccc;
+         margin-top: 0.5rem;
+      }
+
+      
+   }
+}
+
+.loadMore {
+   font-weight: 600;
+   font-size: 18px;
+   color: var(--pink-500);
+   background-color: transparent;
+   margin-top: 2rem;
+   padding: 0;
+   border: 0;
+}
